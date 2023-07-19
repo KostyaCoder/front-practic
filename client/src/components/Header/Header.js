@@ -95,7 +95,8 @@ class Header extends React.Component {
             </div>
           </div>
           <div className={styles.navContainer}>
-            <img src={`${CONSTANTS.STATIC_IMAGES_PATH}blue-logo.png`} className={styles.logo} alt="blue_logo" />
+            <a href="/">
+            <img src={`${CONSTANTS.STATIC_IMAGES_PATH}blue-logo.png`} className={styles.logo} alt="blue_logo" /></a>
             <div className={styles.leftNav}>
               <div className={styles.nav}>
                 <ul>
