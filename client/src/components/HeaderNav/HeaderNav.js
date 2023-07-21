@@ -15,16 +15,17 @@ export default function HeaderNav() {
         <img src={`${CONSTANTS.STATIC_IMAGES_PATH}menu-down.png`} alt="menu" />
         <ul className={styles.listItems}>
           {itemTop.items.map((item, i, arr) => (
-            <a className={styles.aStyle} href={item.linkItem}>
-              <li
-                key={i}
-                className={classNames(styles.item, {
-                  [styles.itemLast]: i === arr.length - 1,
-                })}
-              >
+            <li
+              key={i}
+              className={classNames(styles.item, {
+                [styles.itemLast]: i === arr.length - 1,
+              })}
+            >
+              <a className={styles.aStyle} href={item.linkItem}>
+                {" "}
                 {item.titleItem.toLowerCase()}
-              </li>
-            </a>
+              </a>
+            </li>
           ))}
         </ul>
       </li>
