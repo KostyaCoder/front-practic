@@ -76,5 +76,59 @@ export default {
       title: 'LEGAL',
       items: ['Terms of Service', 'Privacy Policy', 'Cookie Policy']
     }
+  ],
+
+  HeaderNavItems: [
+    {
+      title: 'NAME IDEAS',
+      items: [
+        {titleItem: 'Beauty', linkItem: 'http://www.google.com'},
+        {titleItem: 'Consulting', linkItem: 'http://www.google.com'},
+        {titleItem: 'E-Commerce', linkItem: 'http://www.google.com'},
+        {titleItem: 'Fashion & Clothing', linkItem: 'http://www.google.com'},
+        {titleItem: 'Finance', linkItem: 'http://www.google.com'},
+        {titleItem: 'Real Estate', linkItem: 'http://www.google.com'},
+        {titleItem: 'Tech', linkItem: 'http://www.google.com'},
+        {titleItem: 'More Categories', linkItem: 'http://www.google.com'}
+      ]
+    },
+    {
+      title: 'CONTESTS', 
+      items: [
+        {titleItem: 'HOW IT WORKS', linkItem: 'http://www.google.com'},
+        {titleItem: 'PRICING', linkItem: 'http://www.google.com'},
+        {titleItem: 'AGENCY SERVICE', linkItem: 'http://www.google.com'},
+        {titleItem: 'ACTIVE CONTESTS', linkItem: 'http://www.google.com'},
+        {titleItem: 'WINNERS', linkItem: 'http://www.google.com'},
+        {titleItem: 'LEADERBOARD', linkItem: 'http://www.google.com'},
+        {titleItem: 'BECOME A CREATIVE', linkItem: 'http://www.google.com'},
+    ]},
+    {
+      title: 'Our Work', 
+      items: [
+        {titleItem: 'NAMES', linkItem: 'http://www.google.com'},
+        {titleItem: 'TAGLINES', linkItem: 'http://www.google.com'},
+        {titleItem: 'LOGOS', linkItem: 'http://www.google.com'},
+        {titleItem: 'TESTIMONIALS', linkItem: 'http://www.google.com'},
+    ]},
+    {
+      title: 'Names For Sale', 
+      items: [
+        {titleItem: 'POPULAR NAMES', linkItem: 'http://www.google.com'},
+        {titleItem: 'SHORT NAMES', linkItem: 'http://www.google.com'},
+        {titleItem: 'INTRIGUING NAMES', linkItem: 'http://www.google.com'},
+        {titleItem: 'NAMES BY CATEGORY', linkItem: 'http://www.google.com'},
+        {titleItem: 'VISUAL NAME SEARCH', linkItem: 'http://www.google.com'},
+        {titleItem: 'SELL YOUR DOMAINS', linkItem: 'http://www.google.com'},
+      ]},
+    {
+      title: 'Blog', 
+      items: [
+        {titleItem: 'ULTIMATE NAMING GUIDE', linkItem: 'http://www.google.com'},
+        {titleItem: 'POETIC DEVICES IN BUSINESS NAMING', linkItem: 'http://www.google.com'},
+        {titleItem: 'CROWDED BAR THEORY', linkItem: 'http://www.google.com'},
+        {titleItem: 'ALL ARTICLES', linkItem: 'http://www.google.com'},
+    ]},
   ]
+
 }
