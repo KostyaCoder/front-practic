@@ -132,13 +132,13 @@ class Header extends React.Component {
           </div>
         </div>
         <div className={styles.navContainer}>
-          <a href="/">
+          <Link to="/" style={{ textDecoration: "none" }}>
             <img
-              src={`${CONSTANTS.STATIC_IMAGES_PATH}blue-logo.png`}
-              className={styles.logo}
-              alt="blue_logo"
-            />
-          </a>
+                src={`${CONSTANTS.STATIC_IMAGES_PATH}blue-logo.png`}
+                className={styles.logo}
+                alt="blue_logo"
+              />
+          </Link>
           <div className={styles.leftNav}>
             <HeaderNav/>
             {this.props.data && this.props.data.role !== CONSTANTS.CREATOR && (
